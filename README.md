@@ -8,11 +8,11 @@ jQuery
 Java Script
 
 # Funcionalidades
-Adicionar tarefas
-Adicionar horário
-Adicionar de forma opcional uma observação de até 25 caracteres
-Riscar e deixar a tarefa como concluida
-Remover a lista da tabela
+  Adicionar tarefas
+  Adicionar horário
+  Adicionar de forma opcional uma observação de até 25 caracteres
+  Riscar e deixar a tarefa como concluida
+  Remover a lista da tabela
 
 # Como utilizar
 1. Na pagina inicial clique no icone '+'
