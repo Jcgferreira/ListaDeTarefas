@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Linden+Hill:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>DIA A DIA</h1>
+        <h2>A SUA LISTA DE TAREFAS</h2>
+        <div id="add-tarefa">
+            <p>Caso não tenha adicionado uma tarefa <br> clique no botão abaixo</p>
+            <h2>Adicione sua nova tarefa</h2>
+            <button type="submit" id="btn-open-menu">
+                <i class="fa-solid fa-plus">+</i>
+            </button>
+            <div id="img">
+                <img src="./Garota-estudando.png" alt="Garota-estudando"></img>
+            </div>
+        </div>
+    </header>
+    <div id="nova-tarefa">
+        <form id="form-tarefa">
+            <label>Nova tarefa</label>
+            <input id="new-task" type="text" placeholder="Digite sua nova tarefa" required>
+            <label>Horaio</label>
+            <input id="hour" type="time" placeholder="00:00" required>
+            <label>Observação</label>
+            <textarea id="description" placeholder="Opcional" maxlength="25" rows="0"></textarea>
+            <div class="todo-button">
+                <button type="submit" class="todo-btn-adicionar">
+                    <i class="fa-sharp fa-solid fa-check"></i>+
+                </button>
+                <button type="reset" id="todo-btn-cancelar">X
+                    <i class="fa-sharp fa-solid fa-xmark"></i>
+                </button>
+        </form>
+    </div>
+    <div class="container">
+                <h2 id="list-header">O QUE VAMOS FAZER HOJE?</h2>
+            <div class="lista">
+                    <ul>
+                    </ul>
+            </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="./main.js"></script>
+</html>
