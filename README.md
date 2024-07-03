@@ -2,17 +2,17 @@
 Este projeto foi desenvolvido como parte do curso de Desenvolvedor Full Stack Python na Ebac. O objetivo do exercício era criar uma lista de tarefas utilizando jQuery. Aproveitando a oportunidade para criar a lista com alguns conhecimentos adquiridos fora do curso.
 
 # Tecnologias utilizadas
-*HTML
-*CSS
-*jQuery
-*Java Script
+HTML
+CSS
+jQuery
+Java Script
 
 # Funcionalidades
-*Adicionar tarefas
-*Adicionar horário
-*Adicionar de forma opcional uma observação de até 25 caracteres
-*Riscar e deixar a tarefa como concluida
-*Remover a lista da tabela
+Adicionar tarefas
+Adicionar horário
+Adicionar de forma opcional uma observação de até 25 caracteres
+Riscar e deixar a tarefa como concluida
+Remover a lista da tabela
 
 # Como utilizar
 1. Na pagina inicial clique no icone '+'
